@@ -1,0 +1,35 @@
+Software como sistema operação - capaz de interagir entre aplicativos
+Hadware - é o computador, a máquina --- coisas que conseguimos pegar
+------------------------------------------------
+v8 
+*É um interpretador de JS para Linguagem de máquina
+* Criado em c++
+* Baseado nas útimas features do JS
+* Focado para CHOROME mas tem TODO o cuidado de não quebrar o NODE
+* Não possui a DOM, console ou File Sytem
+-------------------------------------------------
+			NodeJS 
+*O que é?*
+	É JS Runtime Enviroment
+	|runtime enviroment é um ambiente operacional que conversa com o sistema através do javaScript| 
+
+	Node.js é uma tecnologia assíncrona que trabalha em uma única thread de execução.
+
+*Como ele funciona?*
+	- link: https://www.luiztools.com.br/post/o-que-e-nodejs-e-outras-5-duvidas-fundamentais/
+	- Resumindo:
+Existe um único fluxo de execução chamado de Event Loop.
+	-Quando chega uma requisição, ela entra nesse fluxo,a máquina virtual Javascript verifica o que tem de ser feito e delega a atividade.
+(consultar dados no banco, por exemplo) e volta a atender novas requisições enquanto este processamento paralelo está acontecendo. 
+Quando a atividade termina (já temos os dados retornados pelo banco), ela volta ao fluxo principal para ser devolvida ao requisitante.
+
+
+*RELP*
+Read - Eval - Print - Loop 
+Ler- Interpretar -  "Printar" - Eventos sequencias
+
+
+*variáveis Globais - são encontradas na parte de documentação do Node*
+	|temos exemplos de aplicação no VScode|
+
+*Criação de módulo* >> Exemplo no VScode
